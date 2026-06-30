@@ -1,0 +1,12 @@
+severity_threshold: critical
+include_tests: false
+ignored_paths:
+  - "migrations/"
+  - "vendor/"
+max_file_size_kb: 500
+custom_instructions: |
+  Ce projet est un repo de test pour Smartovate LTD.
+  Vérifier en priorité les credentials et injections SQL.
+languages_enabled:
+  - python
+  - javascript
